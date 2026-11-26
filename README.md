@@ -6,6 +6,7 @@
 [![Course: EPFL PHYS-743](https://img.shields.io/badge/EPFL-PHYS--743%20Parallel%20Programming-red.svg)](https://edu.epfl.ch/)
 
 Parallel tsunami simulation: shallow water equations with MPI.
+
 A 2D **shallow water** solver that simulates tsunami propagation over real topography, and
 its **parallelization with MPI** on an HPC cluster. The serial NumPy code was turned into a
 domain-decomposed MPI program, profiled, and benchmarked on up to **529 processes across 15
