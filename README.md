@@ -1,5 +1,4 @@
 # Shallow Water Parallelization
-## Parallel tsunami simulation: shallow water equations with MPI
 
 [![Python 3](https://img.shields.io/badge/python-3-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![MPI: mpi4py](https://img.shields.io/badge/MPI-mpi4py-informational.svg)](https://mpi4py.readthedocs.io/)
@@ -7,6 +6,7 @@
 [![Scheduler: SLURM](https://img.shields.io/badge/scheduler-SLURM-lightgrey.svg)](https://slurm.schedmd.com/)
 [![Course: EPFL PHYS-743](https://img.shields.io/badge/EPFL-PHYS--743%20Parallel%20Programming-red.svg)](https://edu.epfl.ch/)
 
+Parallel tsunami simulation: shallow water equations with MPI.
 A 2D **shallow water** solver that simulates tsunami propagation over real topography, and
 its **parallelization with MPI** on an HPC cluster. The serial NumPy code was turned into a
 domain-decomposed MPI program, profiled, and benchmarked on up to **529 processes across 15
