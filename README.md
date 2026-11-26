@@ -1,5 +1,4 @@
 # Shallow Water Parallelization
-
 [![Python 3](https://img.shields.io/badge/python-3-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![MPI: mpi4py](https://img.shields.io/badge/MPI-mpi4py-informational.svg)](https://mpi4py.readthedocs.io/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)
